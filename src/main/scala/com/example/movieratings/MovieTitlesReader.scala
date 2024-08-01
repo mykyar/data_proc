@@ -21,7 +21,7 @@ trait MovieTitlesReader {
   }
 
   private def isInRange(year: Int): Boolean = {
-    year > 1970 && year < 1990
+    year >= 1970 && year <= 1990
   }
 }
 
